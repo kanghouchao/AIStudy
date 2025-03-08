@@ -2,6 +2,7 @@ aiohappyeyeballs==2.4.6
 aiohttp==3.11.13
 aiohttp-retry==2.9.1
 aiosignal==1.3.2
+altair==5.5.0
 amqp==5.3.1
 annotated-types==0.7.0
 antlr4-python3-runtime==4.9.3
@@ -21,6 +22,8 @@ babel==2.17.0
 beautifulsoup4==4.13.3
 billiard==4.2.1
 bleach==6.2.0
+blinker==1.9.0
+cachetools==5.5.2
 celery==5.4.0
 certifi==2025.1.31
 cffi==1.17.1
@@ -55,6 +58,7 @@ exceptiongroup==1.2.2
 executing==2.2.0
 fastjsonschema==2.21.1
 filelock==3.17.0
+Flask==3.1.0
 flatten-dict==0.4.2
 flufl.lock==8.1.0
 fonttools==4.56.0
@@ -77,6 +81,7 @@ ipython==8.32.0
 ipywidgets==8.1.5
 isoduration==20.11.0
 iterative-telemetry==0.0.10
+itsdangerous==2.2.0
 jedi==0.19.2
 Jinja2==3.1.5
 joblib==1.4.2
@@ -92,7 +97,6 @@ jupyter_client==8.6.3
 jupyter_core==5.7.2
 jupyter_server==2.15.0
 jupyter_server_terminals==0.5.3
-jupyterlab==4.3.5
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.3
 jupyterlab_widgets==3.0.13
@@ -106,6 +110,7 @@ mdurl==0.1.2
 mistune==3.1.2
 mpmath==1.3.0
 multidict==6.1.0
+narwhals==1.28.0
 nbclient==0.10.2
 nbconvert==7.16.6
 nbformat==5.10.4
@@ -128,12 +133,15 @@ platformdirs==4.3.6
 prometheus_client==0.21.1
 prompt_toolkit==3.0.50
 propcache==0.3.0
+protobuf==5.29.3
 psutil==7.0.0
 ptyprocess==0.7.0
 pure_eval==0.2.3
+pyarrow==19.0.1
 pycparser==2.22
 pydantic==2.10.6
 pydantic_core==2.27.2
+pydeck==0.9.1
 pydot==3.0.4
 pygit2==1.17.0
 Pygments==2.19.1
@@ -157,6 +165,7 @@ safetensors==0.5.3
 scikit-learn==1.6.1
 scipy==1.15.2
 scmrepo==3.3.10
+seaborn==0.13.2
 semver==3.0.4
 Send2Trash==1.8.3
 shellingham==1.5.4
@@ -168,12 +177,15 @@ sniffio==1.3.1
 soupsieve==2.6
 sqltrie==0.11.2
 stack-data==0.6.3
+streamlit==1.42.2
 sympy==1.13.1
 tabulate==0.9.0
+tenacity==9.0.0
 terminado==0.18.1
 threadpoolctl==3.5.0
 tinycss2==1.4.0
 tokenizers==0.21.0
+toml==0.10.2
 tomli==2.2.1
 tomlkit==0.13.2
 torch==2.6.0
@@ -193,6 +205,8 @@ wcwidth==0.2.13
 webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
+websockets==15.0
+Werkzeug==3.1.3
 widgetsnbextension==4.0.13
 yarl==1.18.3
 zc.lockfile==3.0.post1
